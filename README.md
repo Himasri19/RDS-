@@ -1,4 +1,3 @@
-
 AWS RDS
 =========
 1) What is Database
@@ -8,7 +7,6 @@ AWS RDS
 5) RDS Setup
 6) Connecting with RDS DB Server using MySQL Workbench
 7) Conclusion
-
 
 What is Database ?
 ===================
@@ -21,7 +19,9 @@ Whatsapp Application -------------> Database
 => Every s/w application will use database to store the data permanently.
 => Software applications will use SQL to communicate with databases.
 => SQL stands for Structured Query Language.
+
 SQL
+===================
 Application ------------> Database
 => Using SQL we can perform CRUD operations in the database.
 C -> Create
@@ -37,13 +37,13 @@ D -> Delete
 => Relational databases will store the data using tables.
 => Table represents data using Rows and columns.
 
+<img width="1230" height="759" alt="image" src="https://github.com/user-attachments/assets/687f9528-fdfc-47c9-aec6-c93ea2c8520e" />
 
 Database Setup
 =================
 => We can setup database in 2 ways
 1) On-Prem Database
 2) Cloud Database
-
 
 Challenges with On-Prem Database
 ==================================
@@ -63,8 +63,22 @@ Challenges with On-Prem Database
 => RDS is a fully managed service in AWS cloud.
 => RDS works based on "pay as you go" model.
 
-
+Key Features of AWS RDS:
 ============================
+ Fully managed: AWS handles backups, patching, monitoring, and scaling.
+ Supports multiple database engines, including:
+o Amazon Aurora
+o MySQL
+o PostgreSQL
+o MariaDB
+o Oracle
+o SQL Server
+ High availability with Multi-AZ deployment.
+ Automated backups and snapshots.
+ Scalable performance: You can easily change compute and storage resources.
+ Security: Integration with IAM, encryption at rest and in transit, VPC support.
+
+
 MySQL DB Creation Steps
 ============================
 CREATE DATABASE → STANDARD → ENGINE: MYSQL
@@ -74,7 +88,7 @@ You are:
 3.So AWS will host a MySQL database for you in the cloud
 4.You are selecting Free Tier template (cost-optimized).
 
-====================
+
 Database Details
 ====================
 DB Endpoint
@@ -89,7 +103,7 @@ Master password :
 Endpoint :
 Note: Use MySQL Workbench and test database connectivitity. If you are able to
 connect that means your RDS Setup is successful.
-============================
+
 SQL Queries For Practice
 ============================
 => Execute below sql queries using workbench
