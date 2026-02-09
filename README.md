@@ -62,6 +62,7 @@ Challenges with On-Prem Database
 => RDS is used to create & manage relational databases
 => RDS is a fully managed service in AWS cloud.
 => RDS works based on "pay as you go" model.
+<img width="1052" height="1406" alt="image" src="https://github.com/user-attachments/assets/61ddd655-f9a0-4171-be5b-14f0fd441cda" />
 
 Key Features of AWS RDS:
 ============================
